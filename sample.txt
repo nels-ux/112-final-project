@@ -1,0 +1,17 @@
+start {
+    num a = 5;
+    num b = 10;
+    num c = 2;
+    
+    /* Arithmetic Test: 
+       Calculation: 5 + 10 * 2 / (10 - 5)
+       Step 1 (Parens): 10 - 5 = 5
+       Step 2 (Mult): 10 * 2 = 20
+       Step 3 (Div): 20 / 5 = 4
+       Step 4 (Add): 5 + 4 = 9
+    */
+    
+    num result = a + b * c / (b - a);
+    
+    eshow("Arithmetic Result:", result);
+} end
