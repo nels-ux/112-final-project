@@ -1,0 +1,3 @@
+start {
+    eshow("Welcome to my Compiler");
+} end
